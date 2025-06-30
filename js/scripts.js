@@ -1,7 +1,7 @@
 let products = [];
 
 async function getData() {
-    const url = "https://dummyjson.com/products";
+    const url = "https://fakestoreapi.com/products";
     try {
         const response = await fetch(url);
         if (!response.ok) {
